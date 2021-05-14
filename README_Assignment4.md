@@ -1,0 +1,134 @@
+# HW4
+## 1. dddd
+Joseph Zhao and Yucong Ma both did all the steps and verified exits.
+## 2. exit print out
+### (ept on)
+-  [  733.032704] exit reason0 exits=8109
+-  [  733.032918] exit reason1 exits=38392
+-  [  733.032997] exit reason2 exits=0
+-  [  733.033071] exit reason3 exits=0
+-  [  733.033145] exit reason4 exits=0
+-  [  733.033389] exit reason7 exits=5330
+-  [  733.033453] exit reason8 exits=0
+-  [  733.033515] exit reason9 exits=0
+-  [  733.033579] exit reason10 exits=139279
+-  [  733.033725] exit reason12 exits=5550
+-  [  733.033792] exit reason13 exits=0
+-  [  733.033856] exit reason14 exits=0
+-  [  733.033919] exit reason15 exits=0
+-  [  733.033982] exit reason16 exits=0
+-  [  733.034106] exit reason18 exits=0
+-  [  733.034169] exit reason19 exits=0
+-  [  733.034232] exit reason20 exits=0
+-  [  733.034295] exit reason21 exits=0
+-  [  733.034358] exit reason22 exits=0
+-  [  733.034421] exit reason23 exits=0
+-  [  733.034484] exit reason24 exits=0
+-  [  733.034548] exit reason25 exits=0
+-  [  733.034611] exit reason26 exits=0
+-  [  733.034674] exit reason27 exits=0
+-  [  733.034737] exit reason28 exits=18078
+-  [  733.034800] exit reason29 exits=1
+-  [  733.034853] exit reason30 exits=163297
+-  [  733.034873] exit reason31 exits=431
+-  [  733.034891] exit reason32 exits=21611
+-  [  733.034909] exit reason33 exits=0
+-  [  733.034926] exit reason34 exits=0
+-  [  733.034961] exit reason36 exits=0
+-  [  733.034978] exit reason37 exits=0
+-  [  733.035012] exit reason39 exits=0
+-  [  733.035030] exit reason40 exits=83
+-  [  733.035048] exit reason41 exits=0
+-  [  733.035254] exit reason43 exits=0
+-  [  733.035277] exit reason44 exits=0
+-  [  733.035295] exit reason45 exits=0
+-  [  733.035313] exit reason46 exits=1
+-  [  733.035592] exit reason47 exits=0
+-  [  733.035616] exit reason48 exits=207977
+-  [  733.035635] exit reason49 exits=46305
+-  [  733.035653] exit reason50 exits=0
+-  [  733.035670] exit reason51 exits=0
+-  [  733.035688] exit reason52 exits=0
+-  [  733.035705] exit reason53 exits=0
+-  [  733.035723] exit reason54 exits=2
+-  [  733.035741] exit reason55 exits=2
+-  [  733.035758] exit reason56 exits=0
+-  [  733.035776] exit reason57 exits=0
+-  [  733.037021] exit reason58 exits=0
+-  [  733.037046] exit reason59 exits=0
+-  [  733.037065] exit reason60 exits=0
+-  [  733.037083] exit reason61 exits=0
+-  [  733.037100] exit reason62 exits=0
+-  [  733.037118] exit reason63 exits=0
+-  [  733.037137] exit reason64 exits=0
+-  [  733.037187] exit reason67 exits=0
+-  [  733.037205] exit reason68 exits=0
+-  [  733.037305] exit reason74 exits=0
+### (ept off)
+-  [ 6894.553024] exit reason0 exits=2031833
+-  [ 6894.555180] exit reason1 exits=126387
+-  [ 6894.556172] exit reason2 exits=0
+-  [ 6894.557162] exit reason3 exits=0
+-  [ 6894.558151] exit reason4 exits=0
+-  [ 6894.558348] exit reason7 exits=60278
+-  [ 6894.558405] exit reason8 exits=0
+-  [ 6894.558461] exit reason9 exits=0
+-  [ 6894.558931] exit reason10 exits=282579
+-  [ 6894.559049] exit reason12 exits=90615
+-  [ 6894.559106] exit reason13 exits=0
+-  [ 6894.559162] exit reason14 exits=197235
+-  [ 6894.559218] exit reason15 exits=0
+-  [ 6894.559329] exit reason16 exits=0
+-  [ 6894.559915] exit reason18 exits=0
+-  [ 6894.559972] exit reason19 exits=0
+-  [ 6894.560029] exit reason20 exits=0
+-  [ 6894.560085] exit reason21 exits=0
+-  [ 6894.560141] exit reason22 exits=0
+-  [ 6894.560197] exit reason23 exits=0
+-  [ 6894.560253] exit reason24 exits=0
+-  [ 6894.560798] exit reason25 exits=0
+-  [ 6894.560857] exit reason26 exits=0
+-  [ 6894.560913] exit reason27 exits=0
+-  [ 6894.560969] exit reason28 exits=9994760
+-  [ 6894.561026] exit reason29 exits=2
+-  [ 6894.561082] exit reason30 exits=309948
+-  [ 6894.561584] exit reason31 exits=7144
+-  [ 6894.561644] exit reason32 exits=365150
+-  [ 6894.561698] exit reason33 exits=0
+-  [ 6894.561753] exit reason34 exits=0
+-  [ 6894.561860] exit reason36 exits=0
+-  [ 6894.561915] exit reason37 exits=0
+-  [ 6894.562023] exit reason39 exits=0
+-  [ 6894.571614] exit reason40 exits=322
+-  [ 6894.571702] exit reason41 exits=0
+-  [ 6894.571818] exit reason43 exits=0
+-  [ 6894.571873] exit reason44 exits=0
+-  [ 6894.571927] exit reason45 exits=0
+-  [ 6894.571982] exit reason46 exits=2
+-  [ 6894.572036] exit reason47 exits=0
+-  [ 6894.572090] exit reason48 exits=304207
+-  [ 6894.572145] exit reason49 exits=88481
+-  [ 6894.572200] exit reason50 exits=0
+-  [ 6894.572254] exit reason51 exits=0
+-  [ 6894.572354] exit reason52 exits=0
+-  [ 6894.572410] exit reason53 exits=0
+-  [ 6894.572465] exit reason54 exits=6
+-  [ 6894.572531] exit reason55 exits=4
+-  [ 6894.572584] exit reason56 exits=0
+-  [ 6894.572637] exit reason57 exits=0
+-  [ 6894.572690] exit reason58 exits=157785
+-  [ 6894.572766] exit reason59 exits=0
+-  [ 6894.572851] exit reason60 exits=0
+-  [ 6894.572926] exit reason61 exits=0
+-  [ 6894.573002] exit reason62 exits=0
+-  [ 6894.573056] exit reason63 exits=0
+-  [ 6894.573109] exit reason64 exits=0
+-  [ 6894.573265] exit reason67 exits=0
+-  [ 6894.573318] exit reason68 exits=0
+-  [ 6894.573631] exit reason74 exits=0
+## 3.what did I learn?
+I learned that exit 28(Control register access) is significantly higher when ept is off.
+It is expected because in shadow paging mode, CR3 exit is turned on so that hypervisor has control of page tables in the VMs, so that physical addresses in VM are not out of boundry. Everytime page table is changed, CR3 exit is triggered.
+## 4.what changed?
+The way hypervisor access memory changed. With ept turned off, the VM is forced to use shadow paging. Hypervisor is in control of the page tables in VMs. Shadow paging only goes through one page table, while nested paging uses 2 page table to access physical memory.
+

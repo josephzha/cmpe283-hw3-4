@@ -12,3 +12,5 @@
    5. Set eax to the counter value of that exit reason from the counter list.
    6. use "make -j 4 && sudo make -j 4 modules && sudo make install && sudo make modules_install" to build modules and restart the VM.
    7. Boot up inner VM. In test.c, use a loop to call cpuid with eax = 0x4ffffffe and ecx = 0 through 74, print out the result from eax.
+3. Each reboot entail 700K exits. The exits increase at a stable rate. 
+4. The most frequent exit type is 48:EPT violation. There are many exit types with 0 exit counts.
