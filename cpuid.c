@@ -1147,22 +1147,18 @@ int kvm_emulate_cpuid(struct kvm_vcpu *vcpu)
 
 	eax = kvm_rax_read(vcpu);
 	ecx = kvm_rcx_read(vcpu);
-	printk(KERN_INFO "------------Start Here------------");
-	printk(KERN_INFO "eax: %X\n", eax);
 	if (eax == 0x4fffffff) {
 		eax = atomic64_read(&exit_counters);
 		ebx = (atomic64_read(&exit_duration) >> 32);
 		ecx = (atomic64_read(&exit_duration) & 0xFFFFFFFF);
 	} else if (eax == 0x4ffffffe) {
-		printk(KERN_INFO "------------Start eax==0x4ffffffe------------");
 		if(ecx >= 0 && ecx <= 74) {
-			printk(KERN_INFO "within 0-74");
 			if(ecx == 5 || ecx == 6 || ecx == 11 || ecx == 17 || ecx == 35 || ecx == 38 || ecx == 42 || ecx == 65 || ecx == 66 || ecx == 69 || ecx == 70 || ecx == 71 || ecx == 72 || ecx == 73) {
 				// exit type not enabled in KVM
 				eax = ebx = ecx = edx = 0;
 			} else {
-				printk(KERN_INFO "exit reason%u\n",ecx);
 				eax = individual_exit_count[ecx];
+				printk(KERN_INFO "exit reason%u exits=%u\n",ecx, eax);
 			}
 		} else {
 			eax = ebx = ecx = 0;
