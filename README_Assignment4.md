@@ -1,5 +1,5 @@
 # HW4
-## 1. dddd
+## 1. work distribution
 Joseph Zhao and Yucong Ma both did all the steps and verified exits.
 ## 2. exit print out
 ### (ept on)
