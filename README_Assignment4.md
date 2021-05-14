@@ -1,7 +1,8 @@
 # HW4
 ## Answers to Questions:
 1. dddd
-2. exit counts (ept on)
+2. exit counts 
+## (ept on)
 -  [  733.032704] exit reason0 exits=8109
 -  [  733.032918] exit reason1 exits=38392
 -  [  733.032997] exit reason2 exits=0
@@ -63,3 +64,65 @@
 -  [  733.037187] exit reason67 exits=0
 -  [  733.037205] exit reason68 exits=0
 -  [  733.037305] exit reason74 exits=0
+## (ept off)
+-  [ 6894.553024] exit reason0 exits=2031833
+-  [ 6894.555180] exit reason1 exits=126387
+-  [ 6894.556172] exit reason2 exits=0
+-  [ 6894.557162] exit reason3 exits=0
+-  [ 6894.558151] exit reason4 exits=0
+-  [ 6894.558348] exit reason7 exits=60278
+-  [ 6894.558405] exit reason8 exits=0
+-  [ 6894.558461] exit reason9 exits=0
+-  [ 6894.558931] exit reason10 exits=282579
+-  [ 6894.559049] exit reason12 exits=90615
+-  [ 6894.559106] exit reason13 exits=0
+-  [ 6894.559162] exit reason14 exits=197235
+-  [ 6894.559218] exit reason15 exits=0
+-  [ 6894.559329] exit reason16 exits=0
+-  [ 6894.559915] exit reason18 exits=0
+-  [ 6894.559972] exit reason19 exits=0
+-  [ 6894.560029] exit reason20 exits=0
+-  [ 6894.560085] exit reason21 exits=0
+-  [ 6894.560141] exit reason22 exits=0
+-  [ 6894.560197] exit reason23 exits=0
+-  [ 6894.560253] exit reason24 exits=0
+-  [ 6894.560798] exit reason25 exits=0
+-  [ 6894.560857] exit reason26 exits=0
+-  [ 6894.560913] exit reason27 exits=0
+-  [ 6894.560969] exit reason28 exits=9994760
+-  [ 6894.561026] exit reason29 exits=2
+-  [ 6894.561082] exit reason30 exits=309948
+-  [ 6894.561584] exit reason31 exits=7144
+-  [ 6894.561644] exit reason32 exits=365150
+-  [ 6894.561698] exit reason33 exits=0
+-  [ 6894.561753] exit reason34 exits=0
+-  [ 6894.561860] exit reason36 exits=0
+-  [ 6894.561915] exit reason37 exits=0
+-  [ 6894.562023] exit reason39 exits=0
+-  [ 6894.571614] exit reason40 exits=322
+-  [ 6894.571702] exit reason41 exits=0
+-  [ 6894.571818] exit reason43 exits=0
+-  [ 6894.571873] exit reason44 exits=0
+-  [ 6894.571927] exit reason45 exits=0
+-  [ 6894.571982] exit reason46 exits=2
+-  [ 6894.572036] exit reason47 exits=0
+-  [ 6894.572090] exit reason48 exits=304207
+-  [ 6894.572145] exit reason49 exits=88481
+-  [ 6894.572200] exit reason50 exits=0
+-  [ 6894.572254] exit reason51 exits=0
+-  [ 6894.572354] exit reason52 exits=0
+-  [ 6894.572410] exit reason53 exits=0
+-  [ 6894.572465] exit reason54 exits=6
+-  [ 6894.572531] exit reason55 exits=4
+-  [ 6894.572584] exit reason56 exits=0
+-  [ 6894.572637] exit reason57 exits=0
+-  [ 6894.572690] exit reason58 exits=157785
+-  [ 6894.572766] exit reason59 exits=0
+-  [ 6894.572851] exit reason60 exits=0
+-  [ 6894.572926] exit reason61 exits=0
+-  [ 6894.573002] exit reason62 exits=0
+-  [ 6894.573056] exit reason63 exits=0
+-  [ 6894.573109] exit reason64 exits=0
+-  [ 6894.573265] exit reason67 exits=0
+-  [ 6894.573318] exit reason68 exits=0
+-  [ 6894.573631] exit reason74 exits=0
