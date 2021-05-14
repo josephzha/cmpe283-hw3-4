@@ -1,8 +1,7 @@
 # HW4
-## Answers to Questions:
 1. dddd
-2. exit counts 
-## (ept on)
+## 2. exit print out
+### (ept on)
 -  [  733.032704] exit reason0 exits=8109
 -  [  733.032918] exit reason1 exits=38392
 -  [  733.032997] exit reason2 exits=0
@@ -64,7 +63,7 @@
 -  [  733.037187] exit reason67 exits=0
 -  [  733.037205] exit reason68 exits=0
 -  [  733.037305] exit reason74 exits=0
-## (ept off)
+### (ept off)
 -  [ 6894.553024] exit reason0 exits=2031833
 -  [ 6894.555180] exit reason1 exits=126387
 -  [ 6894.556172] exit reason2 exits=0
