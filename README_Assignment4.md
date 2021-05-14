@@ -126,9 +126,9 @@ Joseph Zhao and Yucong Ma both did all the steps and verified exits.
 -  [ 6894.573265] exit reason67 exits=0
 -  [ 6894.573318] exit reason68 exits=0
 -  [ 6894.573631] exit reason74 exits=0
-### 3.what did I learn?
+## 3.what did I learn?
 I learned that exit 28(Control register access) is significantly higher when ept is off.
 It is expected because in shadow paging mode, CR3 exit is turned on so that hypervisor has control of page tables in the VMs, so that physical addresses in VM are not out of boundry. Everytime page table is changed, CR3 exit is triggered.
-### 4.what changed?
+## 4.what changed?
 The way hypervisor access memory changed. With ept turned off, the VM is forced to use shadow paging. Hypervisor is in control of the page tables in VMs. Shadow paging only goes through one page table, while nested paging uses 2 page table to access physical memory.
 
